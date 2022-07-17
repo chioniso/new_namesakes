@@ -1,157 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: #932F6D;
-    font-family: 'Public Sans', sans-serif;
-    margin: 50px;
+	background-color: #932F6D;
+	font-family: 'Public Sans', sans-serif;
+	margin: 50px;
 }
 
 p {
-    color: #DCCCFF;
+	color: #DCCCFF;
 }
 
-h1, h2{
-    color: #F6F2FF;
+h1, h2 {
+	color: #F6F2FF;
 }
 
 nav {
-    background-color: #420039;
-    display: inline-flex;
-    padding: 10px;
-    border-radius: 10px;
-    width: 80%;
-    justify-content: center;
-    align-content: center;
+	background-color: #420039;
+	display: inline-flex;
+	padding: 10px;
+	border-radius: 10px;
+	width: 80%;
+	justify-content: center;
+	align-content: center;
+    margin: 15px;
 }
 
 ul li {
-    list-style: none;
-    display: inline-flex;
-    padding: 5px;
-    color: #DCCCFF;
+	list-style: none;
+	display: inline-flex;
+	padding: 5px;
+	color: #DCCCFF;
 }
 
 .home, .about, .cont {
-    color: #DCCCFF;
+	color: #DCCCFF;
 }
 
 .home:hover, .about:hover, .cont:hover {
-    color: #E07BE0;
+	color: #E07BE0;
 }
 
 .title {
-    text-align: center;
-    padding: 10px;
+	text-align: center;
+	padding: 10px;
 }
 
 .ccsd, .rec {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    background-color: #DCCCFF;
-    color: #420039;
-    border-radius: 10px;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	background-color: #DCCCFF;
+	color: #420039;
+	border-radius: 10px;
 }
 
 .ccsd1, .rec1 {
-    color: #420039;
+	color: #420039;
 }
 
 .ccsd1:hover, .rec1:hover {
-    color: #932F6D;
+	color: #932F6D;
 }
 
 .div-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 10em;
-    column-gap: 15px;
-    margin: 10px;
-    color: #420039;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 10em;
+	column-gap: 15px;
+	margin: 10px;
+	color: #420039;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .coming-soon {
-    text-align: center;
-    height: 500px;
-    background-color: #420039;
+	text-align: center;
+	height: 200px;
+	background-color: #420039;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    border-radius: 10px;
 }
 
 .rec-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
 }
 
 form {
-    background-color: #420039;
-    border: none;
-    color: #F6F2FF;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
-    width: 80%;
-    padding: 15px;
+	background-color: #420039;
+	border: none;
+	color: #F6F2FF;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	width: 80%;
+	padding: 15px;
 }
 
 input {
-    width: 20em;
+	width: 20em;
 }
 
 .label {
-    margin: 5px;
-    color: #DCCCFF;
+	margin: 5px;
+	color: #DCCCFF;
 }
 
 .button {
-    background-color: #932F6D;
-    border: none;
-    color: #F6F2FF;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
+	background-color: #932F6D;
+	border: none;
+	color: #F6F2FF;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
 }
 
 button {
-    background-color: #420039;
-    border: none;
-    color: #F6F2FF;
-    padding: 10px;
-    width: 20em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
+	background-color: #420039;
+	border: none;
+	color: #F6F2FF;
+	padding: 10px;
+	width: 20em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
 }
 
 .con-text {
-    color: #DCCCFF;
+	color: #DCCCFF;
 }
 
 .spread {
-    color: #420039;
-    background-color: #DCCCFF;
-    padding: 10px;
-    border-radius: 5px;
+	color: #420039;
+	background-color: #DCCCFF;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 .spread:hover {
-    color: #932F6D;
+	color: #932F6D;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-      margin: 7px;
-  }
-    nav {
-        display: flex;
-        
-    }
+	body {
+		margin: 7px;
+	}
+
+	nav {
+		display: flex;
+	}
 }

@@ -16,6 +16,12 @@ h1, h2{
 
 nav {
     background-color: #420039;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
 }
 
 ul li {
@@ -44,6 +50,7 @@ ul li {
     align-content: center;
     background-color: #DCCCFF;
     color: #420039;
+    border-radius: 10px;
 }
 
 .ccsd1, .rec1 {
@@ -126,4 +133,25 @@ button {
 
 .con-text {
     color: #DCCCFF;
+}
+
+.spread {
+    color: #420039;
+    background-color: #DCCCFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.spread:hover {
+    color: #932F6D;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+      margin: 7px;
+  }
+    nav {
+        display: flex;
+        
+    }
 }

@@ -65,7 +65,7 @@ ul li {
 .div-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 10em;
+	grid-template-rows: 1fr;
 	column-gap: 15px;
 	margin: 10px;
 	color: #420039;
@@ -149,6 +149,17 @@ button {
 
 .spread:hover {
 	color: #932F6D;
+}
+
+.credit {
+    color: #420039;
+}
+
+.ccsd-img, .rec-img {
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+    align-content: center;
 }
 
 @media only screen and (max-width: 600px) {

@@ -168,7 +168,7 @@ button {
 	}
 
 	nav {
-		display: flex;
+		display: inline-flex;
 	}
     
     .div-container {

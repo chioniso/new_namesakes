@@ -19,6 +19,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 90%;
 }
 
 .main-text {
